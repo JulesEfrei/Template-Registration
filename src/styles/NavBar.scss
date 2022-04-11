@@ -1,0 +1,49 @@
+@import "./global";
+
+.navbar {
+
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+
+        h1{
+            font-size: 1.2rem;
+        }
+
+        img{
+            width: 70px;
+        }
+
+    }
+
+    .link-container {
+        padding: 0 20px;
+        width: 25%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: $secondary-font;
+        letter-spacing: 2px;
+        font-weight: bold;
+
+        .link {
+            padding: 8px 15px;
+            border: 1px solid black;
+
+            &:nth-last-child(1) {
+                background-color: #090A3A;
+                color: white;
+            }
+        }
+    }
+    
+
+}
+

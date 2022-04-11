@@ -6,6 +6,7 @@ import Home from './views/Home'
 
 //Import Styles
 import './App.css';
+import './styles/global.scss'
 
 function App() {
   return (
